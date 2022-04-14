@@ -1,4 +1,4 @@
-# ICS2O-PWA-Test
+# ICS2O-PWA-Test-1
 
 [![Kaitlyn Ip's Super Linter](https://github.com/KaitlynIp64/ICS2O-PWA-Test-1/workflows/Kaitlyn%20Ip's%20Super%20Linter/badge.svg)](https://github.com/KaitlynIp64/ICS2O-PWA-Test-1/actions)
 
