@@ -4,7 +4,7 @@
 // Created on: Apr 2022
 // This file contains the JS functions for index.html
 
-"use strict";
+"use strict"
 
 /**
  * Check servie worker.
@@ -12,7 +12,7 @@
 if (navigator.serviceWorker) {
   navigator.serviceWorker.register("/ICS2O-PWA-Test/sw.js", {
     scope: "/ICS2O-PWA-Test/",
-  });
+  })
 }
 
 /**
@@ -20,10 +20,10 @@ if (navigator.serviceWorker) {
  */
 function calculate() {
   // input
-  const fahrenheit = document.getElementById("fahrenheit").value;
+  const fahrenheit = document.getElementById("fahrenheit").value
   // process
-  const celsius = ((fahrenheit - 32) * 5.0) / 9.0;
+  const celsius = ((fahrenheit - 32) * 5.0) / 9.0
   // output
   document.getElementById("celsius").innerHTML =
-    "The temperature in Celsius is: " + celsius.toFixed(2) + " °C";
+    "The temperature in Celsius is: " + celsius.toFixed(2) + " °C"
 }
