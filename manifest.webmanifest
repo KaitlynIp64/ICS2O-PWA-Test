@@ -1,7 +1,8 @@
+
 {
-  "name": "Kaitlyn Ip's App",
-  "short_name": "Kaitlyn Ip's App",
-  "description": "Github Page for Kaitlyn Ip's App",
+  "name": "Mr Coxall's App",
+  "short_name": "Mr Coxall's App",
+  "description": "Github Page for Mr Coxall's App",
   "scope": "/ICS2O-PWA-Test-1/",
   "start_url": "/ICS2O-PWA-Test-1/",
   "background_color": "#ffffff",

@@ -1,4 +1,4 @@
-var GHPATH = "/github-page-pwa"
+var GHPATH = "/ICS2O-PWA-Test-1"
 var APP_PREFIX = "gppwa_"
 var VERSION = "version_001"
 var URLS = [
@@ -21,15 +21,6 @@ self.addEventListener("fetch", function (e) {
         console.log("File is not cached, fetching : " + e.request.url)
         return fetch(e.request)
       }
-    })
-  )
-})
-
-self.addEventListener("install", function (e) {
-  e.waitUntil(
-    caches.open(CACHE_NAME).then(function (cache) {
-      console.log("Installing cache : " + CACHE_NAME)
-      return cache.addAll(URLS)
     })
   )
 })
